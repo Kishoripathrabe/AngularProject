@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-servers',
+  // selector: '[app-servers]', //using as attribute
+  selector: '.app-servers', //using as a class
   template: `<app-server></app-server>
       Hey !
     <app-server></app-server>` //for multiline expression use backtick (` `).
